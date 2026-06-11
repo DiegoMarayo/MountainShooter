@@ -9,6 +9,7 @@ print('Loop Start')
 while True:
     # Check for all events
     for event in pygame.event.get():
+        print('Quit Game')
         if event.type == pygame.QUIT:
             pygame.quit()
             quit()
