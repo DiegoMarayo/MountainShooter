@@ -1,6 +1,7 @@
 import pygame
 
-from src.const import WIN_HEIGHT, WIN_WIDTH
+from src.const import WIN_HEIGHT, WIN_WIDTH, MENU_OPTION
+from src.level import Level
 from src.menu import Menu
 
 class Game:
@@ -10,12 +11,17 @@ class Game:
         pygame.display.set_caption("Montain Shooter")
 
     def run(self):
-        menu = Menu(self.window)
-
         while True:
-            menu.run()
-            # Check for all events
-            #for event in pygame.event.get():
-                #if event.type == pygame.QUIT:
-                    #pygame.quit()
-                    #quit()
+            menu = Menu(self.window)
+            menu_return = menu.run()
+
+            # Option Menu Action
+            if menu_return in [MENU_OPTION[0], MENU_OPTION[1], MENU_OPTION[2]]:
+                level = Level(self.window, 'level', menu_return)
+                level_return = level.run()
+                pass
+            elif menu_return == MENU_OPTION[3]:
+                pass
+            elif menu_return == MENU_OPTION[4]:
+                pygame.quit() # Quit Game
+                quit()
