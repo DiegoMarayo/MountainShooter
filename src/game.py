@@ -1,5 +1,4 @@
 import pygame
-
 from src.const import WIN_HEIGHT, WIN_WIDTH, MENU_OPTION
 from src.level import Level
 from src.menu import Menu
