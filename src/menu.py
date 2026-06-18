@@ -8,10 +8,11 @@ class Menu:
         self.rect = self.surf.get_rect(left = 0 , top = 0)
 
     def run(self):
-        menu_option = 0
-        pygame.mixer_music.load('./assets/Menu.mp3')
-        pygame.mixer_music.play(-1)
+        if not pygame.mixer_music.get_busy():
+            pygame.mixer_music.load('./assets/Menu.mp3')
+            pygame.mixer_music.play(-1)
 
+        menu_option = 0
         while True:
             # Draw Images
             self.window.blit(source=self.surf, dest=self.rect)
@@ -50,9 +51,6 @@ class Menu:
 
     def menu_text(self, text_size: int, text: str, text_color: tuple, text_center_pos: tuple):
         text_font = pygame.font.SysFont("Lucida Sans Typewriter", text_size)
-
         text_surf = text_font.render(text, True, text_color).convert_alpha()
-
         text_rect = text_surf.get_rect(center=text_center_pos)
-
         self.window.blit(text_surf, text_rect)

@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="Changind menu">
-      <change afterPath="$PROJECT_DIR$/src/background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entityFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level.py" afterDir="false" />
+    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="Creating menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg Implementation: parallax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Level1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Level.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature_level" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781617089576</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg Implementation: parallax">
+      <option name="closed" value="true" />
+      <created>1781639743113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1781639743113</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +174,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature_level" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -181,7 +196,8 @@
     <MESSAGE value="Creating main loop&#10;Connecting Menu and Game classes" />
     <MESSAGE value="Creating assets folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file" />
     <MESSAGE value="Changind menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changind menu" />
+    <MESSAGE value="Creating menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg Implementation: parallax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg Implementation: parallax" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
