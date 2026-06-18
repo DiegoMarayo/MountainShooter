@@ -4,7 +4,6 @@ from src.const import WIN_WIDTH, WIN_HEIGHT
 from src.enemy import Enemy
 from src.player import Player
 
-
 class EntityFactory:
 
     @staticmethod

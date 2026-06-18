@@ -3,6 +3,20 @@ import pygame
 COLOR_ORANGE = (255, 128, 0)
 COLOR_WHITE = (255, 255, 255)
 
+ENTITY_HEALTH = {
+    'Level1bg0': 999,
+    'Level1bg1': 999,
+    'Level1bg2': 999,
+    'Level1bg3': 999,
+    'Level1bg4': 999,
+    'Level1bg5': 999,
+    'Level1bg6': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 50,
+    'Enemy2': 60,
+}
+
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
                'NEW GAME 2P - COMPETITIVE',

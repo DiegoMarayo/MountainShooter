@@ -7,6 +7,8 @@ from pygame.surface import Surface
 from src.const import COLOR_WHITE, WIN_WIDTH, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME
 from src.entity import Entity
 from src.entityFactory import EntityFactory
+from src.entityMediator import EntityMediator
+
 
 class Level:
 
@@ -60,6 +62,10 @@ class Level:
             )
 
             pygame.display.flip()
+
+            # Collisions
+            EntityMediator.verify_collision(entity_list=self.entity_list)
+            EntityMediator.verify_health(entity_list=self.entity_list)
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
