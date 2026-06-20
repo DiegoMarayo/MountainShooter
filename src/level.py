@@ -4,7 +4,7 @@ import pygame.display
 from pygame.font import Font
 from pygame.rect import Rect
 from pygame.surface import Surface
-from src.const import COLOR_WHITE, WIN_WIDTH, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME
+from src.const import C_WHITE, WIN_WIDTH, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CYAN
 from src.enemy import Enemy
 from src.entity import Entity
 from src.entityFactory import EntityFactory
@@ -27,7 +27,6 @@ class Level:
             self.entity_list.append(EntityFactory.get_entity('Player2'))
         pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME)
 
-
     def run(self):
         pygame.mixer_music.load(f'./assets/{self.name}.mp3')
         pygame.mixer_music.play(-1)
@@ -44,26 +43,30 @@ class Level:
                     shoot = ent.shoot()
                     if shoot is not None:
                         self.entity_list.append(shoot)
+                if ent.name == 'Player1':
+                    self.level_text(14, f'Player1 - Health: {ent.health} | Score: {ent.score}', C_GREEN, (10, 25))
+                if ent.name == 'Player2':
+                    self.level_text(14, f'Player2 - Health: {ent.health} | Score: {ent.score}', C_CYAN, (10, 45))
 
             # Printed Text
             self.level_text(
                 14,
                 f'{self.name} Timeout: {self.timeout / 1000:.1f}s',
-                COLOR_WHITE,
+                C_WHITE,
                 (10, 5)
             )
 
             self.level_text(
                 14,
                 f'FPS: {clock.get_fps():.0f}',
-                COLOR_WHITE,
+                C_WHITE,
                 (10, WIN_HEIGHT - 35)
             )
 
             self.level_text(
                 14,
                 f'Entidades: {len(self.entity_list)}',
-                COLOR_WHITE,
+                C_WHITE,
                 (10, WIN_HEIGHT - 20)
             )
 
@@ -81,10 +84,8 @@ class Level:
                     choice = random.choice(('Enemy1', 'Enemy2'))
                     self.entity_list.append(EntityFactory.get_entity(choice))
 
-
     def level_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple):
         text_font: Font = pygame.font.SysFont(name="Lucida Sans Typewriter", size=text_size)
         text_surf: Surface = text_font.render(text, True, text_color)
         text_rect: Rect = text_surf.get_rect(left=text_pos[0], top=text_pos[1])
         self.window.blit(source=text_surf, dest=text_rect)
-
