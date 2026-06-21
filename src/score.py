@@ -6,7 +6,7 @@ from pygame.surface import Surface
 
 from src.DBProxy import DBProxy
 from src.const import C_YELLOW, SCORE_POS, MENU_OPTION, C_WHITE
-from src.menu import Menu
+
 
 
 class Score:
@@ -45,11 +45,12 @@ class Score:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     quit()
-                    return
                 elif event.type == pygame.KEYDOWN:
                     if event.key == K_RETURN and len(name) == 4:
                         db_proxy.save({'name': name, 'score': score, 'date': get_formatted_date()})
+                        db_proxy.close()
                         self.show()
+                        return
                     elif event.key == K_BACKSPACE:
                         name = name[:-1]
                     else:

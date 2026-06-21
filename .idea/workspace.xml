@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="Level 2 implementation">
-      <change afterPath="$PROJECT_DIR$/src/DBProxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/score.py" afterDir="false" />
+    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="SQLite3 implementation for Score using proxy design pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/score.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781987510543</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="SQLite3 implementation for Score using proxy design pattern">
+      <option name="closed" value="true" />
+      <created>1782065579556</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1782065579556</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +270,8 @@
     <MESSAGE value="Creating Mediator Pattern.&#10;Enemies Destruction." />
     <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
     <MESSAGE value="Level 2 implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level 2 implementation" />
+    <MESSAGE value="SQLite3 implementation for Score using proxy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLite3 implementation for Score using proxy design pattern" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

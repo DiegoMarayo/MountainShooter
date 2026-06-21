@@ -9,9 +9,8 @@ class Menu:
 
     def run(self):
         menu_option = 0
-        if not pygame.mixer_music.get_busy():
-            pygame.mixer_music.load('./assets/Menu.mp3')
-            pygame.mixer_music.play(-1)
+        pygame.mixer_music.load('./assets/Menu.mp3')
+        pygame.mixer_music.play(-1)
 
         while True:
             # Draw Images

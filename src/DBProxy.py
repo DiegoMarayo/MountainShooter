@@ -1,6 +1,5 @@
 import sqlite3
 
-
 class DBProxy:
 
     def __init__(self, db_name: str):
@@ -17,6 +16,7 @@ class DBProxy:
     def save(self, score_dict: dict):
         self.connection.execute('INSERT INTO dados (name, score, date) VALUES (:name, :score, :date)', score_dict)
         self.connection.commit()
+        self.connection.close()
 
     def retrieve_top10(self) -> list:
         return self.connection.execute('SELECT * FROM dados ORDER BY score DESC LIMIT 10').fetchall()
