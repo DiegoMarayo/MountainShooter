@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="SQLite3 implementation for Score using proxy design pattern">
+    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="Corrects the flow of phases, scoring, and menu navigation">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBProxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entityMediator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/score.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782065579556</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Corrects the flow of phases, scoring, and menu navigation">
+      <option name="closed" value="true" />
+      <created>1782067204568</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1782067204568</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +276,8 @@
     <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
     <MESSAGE value="Level 2 implementation" />
     <MESSAGE value="SQLite3 implementation for Score using proxy design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQLite3 implementation for Score using proxy design pattern" />
+    <MESSAGE value="Corrects the flow of phases, scoring, and menu navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrects the flow of phases, scoring, and menu navigation" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
