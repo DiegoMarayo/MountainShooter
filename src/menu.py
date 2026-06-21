@@ -8,11 +8,11 @@ class Menu:
         self.rect = self.surf.get_rect(left = 0 , top = 0)
 
     def run(self):
+        menu_option = 0
         if not pygame.mixer_music.get_busy():
             pygame.mixer_music.load('./assets/Menu.mp3')
             pygame.mixer_music.play(-1)
 
-        menu_option = 0
         while True:
             # Draw Images
             self.window.blit(source=self.surf, dest=self.rect)
