@@ -28,7 +28,7 @@ class Score:
                 score = player_score[0]
                 text = 'Enter Player 1 name (4 characters): '
             if game_mode == MENU_OPTION[1]:
-                score = (player_score[0] + player_score[1]) / 2
+                score = int((player_score[0] + player_score[1]) / 2)
                 text = 'Enter Team name (4 characters): '
             if game_mode == MENU_OPTION[2]:
                 if player_score[0] > player_score[1]:
@@ -74,7 +74,7 @@ class Score:
 
         for player_score in list_score:
             id_, name, score, date = player_score
-            self.score_text(20, f'{name}     {score :05d}     {date}', C_YELLOW,
+            self.score_text(20, f'{name}     {int(score):05d}     {date}', C_YELLOW,
                             SCORE_POS[list_score.index(player_score)])
 
         while True:
