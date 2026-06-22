@@ -1,6 +1,6 @@
-from src.enemyShot import EnemyShot
-from src.entity import Entity
-from src.const import ENTITY_SPEED, WIN_WIDTH, ENTITY_SHOT_DELAY
+from src.entities.enemy_shot import EnemyShot
+from src.entities.entity import Entity
+from src.const import ENTITY_SPEED, ENTITY_SHOT_DELAY
 
 
 class Enemy(Entity):

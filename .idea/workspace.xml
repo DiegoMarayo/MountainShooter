@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="ignore IDE, cache and database files" />
+    <list default="true" id="9324dc61-e832-4e5b-8f85-e5f460fc8d8b" name="Changes" comment="ignore IDE, cache and database files">
+      <change afterPath="$PROJECT_DIR$/src/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/systems/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/db_proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enemyShot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/enemy_shot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/entity_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/entity_mediator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/systems/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playerShot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/player_shot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/score.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +83,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Diego\Desktop\ESTUDOS\AULAS\2026 2 Ano\B Fase 1\Linguagem de Programação\TRABALHO\MoutainShooter\src\database" />
+      <recent name="C:\Users\Diego\Desktop\ESTUDOS\AULAS\2026 2 Ano\B Fase 1\Linguagem de Programação\TRABALHO\MoutainShooter\src\ui" />
+      <recent name="C:\Users\Diego\Desktop\ESTUDOS\AULAS\2026 2 Ano\B Fase 1\Linguagem de Programação\TRABALHO\MoutainShooter\src\systems" />
+      <recent name="C:\Users\Diego\Desktop\ESTUDOS\AULAS\2026 2 Ano\B Fase 1\Linguagem de Programação\TRABALHO\MoutainShooter\src\entities" />
       <recent name="C:\Users\Diego\Desktop\ESTUDOS\AULAS\2026 2 Ano\B Fase 1\Linguagem de Programação\TRABALHO\MoutainShooter\assets" />
     </key>
   </component>
@@ -279,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782131200779</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ignore IDE, cache and database files">
+      <option name="closed" value="true" />
+      <created>1782131265794</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1782131265794</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

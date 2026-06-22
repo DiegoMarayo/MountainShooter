@@ -1,8 +1,8 @@
 import random
-from src.background import Background
+from src.entities.background import Background
 from src.const import WIN_WIDTH, WIN_HEIGHT
-from src.enemy import Enemy
-from src.player import Player
+from src.entities.enemy import Enemy
+from src.entities.player import Player
 
 
 class EntityFactory:

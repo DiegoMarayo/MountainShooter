@@ -1,9 +1,9 @@
 from src.const import WIN_WIDTH
-from src.enemy import Enemy
-from src.enemyShot import EnemyShot
-from src.entity import Entity
-from src.player import Player
-from src.playerShot import PlayerShot
+from src.entities.enemy import Enemy
+from src.entities.enemy_shot import EnemyShot
+from src.entities.entity import Entity
+from src.entities.player import Player
+from src.entities.player_shot import PlayerShot
 
 
 class EntityMediator:

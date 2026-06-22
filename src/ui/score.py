@@ -4,7 +4,7 @@ import pygame
 from pygame.constants import K_RETURN, K_BACKSPACE, K_ESCAPE
 from pygame.surface import Surface
 
-from src.DBProxy import DBProxy
+from src.database.db_proxy import DBProxy
 from src.const import C_YELLOW, SCORE_POS, MENU_OPTION, C_WHITE
 
 

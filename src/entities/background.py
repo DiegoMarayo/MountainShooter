@@ -1,5 +1,5 @@
 from src.const import WIN_WIDTH, ENTITY_SPEED
-from src.entity import Entity
+from src.entities.entity import Entity
 
 class Background(Entity):
 

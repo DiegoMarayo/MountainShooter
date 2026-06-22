@@ -6,11 +6,11 @@ from pygame.rect import Rect
 from pygame.surface import Surface
 from src.const import C_WHITE, WIN_HEIGHT, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CYAN, \
     EVENT_TIMEOUT, TIMEOUT_STEP, TIMEOUT_LEVEL
-from src.enemy import Enemy
-from src.entity import Entity
-from src.entityFactory import EntityFactory
-from src.entityMediator import EntityMediator
-from src.player import Player
+from src.entities.enemy import Enemy
+from src.entities.entity import Entity
+from src.systems.entity_factory import EntityFactory
+from src.systems.entity_mediator import EntityMediator
+from src.entities.player import Player
 
 
 class Level:

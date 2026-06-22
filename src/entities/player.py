@@ -1,8 +1,8 @@
 import pygame.key
 from src.const import ENTITY_SPEED, WIN_HEIGHT, WIN_WIDTH, PLAYER_KEY_UP, PLAYER_KEY_DOWN, PLAYER_KEY_LEFT, \
     PLAYER_KEY_RIGHT, PLAYER_KEY_SHOOT, ENTITY_SHOT_DELAY
-from src.entity import Entity
-from src.playerShot import PlayerShot
+from src.entities.entity import Entity
+from src.entities.player_shot import PlayerShot
 
 
 class Player(Entity):
